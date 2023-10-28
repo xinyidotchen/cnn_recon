@@ -1,0 +1,19 @@
+Ngrid: 512
+batchSide: 32
+subGridSize: 39
+learningRate: 0.0001
+shrink: 1
+deltaNg: 32
+iniSmoothing: "smooth0"
+
+trainSims: [53,54,55,56,58,60,62,66]
+testSims: [67,70]
+#trainSims: [0]
+#testSims: [9]
+
+seed: 3141
+restart: output/test3-smooth0-pure_32channel_64batchside/model.pth
+
+numEpochs: 1000
+
+minLearningRate: 1.0e-8

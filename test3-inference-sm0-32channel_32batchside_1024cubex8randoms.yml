@@ -1,0 +1,11 @@
+simNum: 10
+shrink: 1
+checkptPath: output/test3-smooth0-pure_32channel_32batchside_1024cubex8randoms/model.pth
+delta: 1
+runOnGPU: True
+Ngrid: 512
+subGridSize: 39
+batchSide: 32
+outPath: output/test3-smooth0-pure_32channel_32batchside_1024cubex8randoms/modelpth_beststate/sim10_grid.dat
+modelBits: 32
+verbose: True
